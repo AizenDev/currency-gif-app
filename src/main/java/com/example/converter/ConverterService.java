@@ -57,7 +57,6 @@ public class ConverterService {
     }
 
 
-
     private Date yesterday() {
         Calendar calendar = Calendar.getInstance();
         calendar.add(Calendar.DATE, -1);
